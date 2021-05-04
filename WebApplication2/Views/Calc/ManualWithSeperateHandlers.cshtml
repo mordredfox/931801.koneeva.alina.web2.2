@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "ManualWithSeperateHandlers";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <input required type="number" name="valFirst" /><br />
+    <select name="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <br />
+    <input required type="number" name="valSecond" /><br />
+    <input type="submit" value="Submit" />
+</form>

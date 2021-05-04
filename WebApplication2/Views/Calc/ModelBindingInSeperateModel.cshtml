@@ -1,0 +1,18 @@
+﻿@model WebApplication2.Models.Numbers
+@{
+    ViewData["Title"] = "ModelBindingInSeperateModel";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form method="post" >
+    <input required type="number" name="ValueFirst"/><br />
+    <select name="Operation">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <br />
+    <input required type="number" name="ValueSecond" /><br />
+    <input type="submit" value="Submit" />
+</form>
