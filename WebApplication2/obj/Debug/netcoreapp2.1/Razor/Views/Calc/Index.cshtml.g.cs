@@ -63,7 +63,7 @@ using WebApplication2.Models;
             WriteLiteral("<h1>Form parametrs parsing demo</h1>\r\n<ul>\r\n    <li>");
             EndContext();
             BeginContext(97, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0d93b74da1c34a638e035f859ee1fb44", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "335c1f4426274ae8836741627720af11", async() => {
                 BeginContext(121, 31, true);
                 WriteLiteral("Manual parsing in single action");
                 EndContext();
@@ -84,7 +84,7 @@ using WebApplication2.Models;
             WriteLiteral("</li>\r\n    <li>");
             EndContext();
             BeginContext(171, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f47f678aedb74a48be2d4a82715cc8e1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26a9d1e06c374a5fbaa77fe5a67bb050", async() => {
                 BeginContext(215, 34, true);
                 WriteLiteral("Manual parsing in seperate actions");
                 EndContext();
@@ -105,7 +105,7 @@ using WebApplication2.Models;
             WriteLiteral("</li>\r\n    <li>");
             EndContext();
             BeginContext(268, 72, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "76919a947ca54037b7a0f199a3f9c79e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72bef96c43f945ffad61bc60913fe810", async() => {
                 BeginContext(310, 26, true);
                 WriteLiteral("Model binding (parameters)");
                 EndContext();
@@ -126,7 +126,7 @@ using WebApplication2.Models;
             WriteLiteral("</li>\r\n    <li>");
             EndContext();
             BeginContext(355, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5cc14e40832242c89393d92e408bcbe3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "13cd76d95dc14b6a98fb48721dcf306d", async() => {
                 BeginContext(400, 30, true);
                 WriteLiteral("Model binding (seperate model)");
                 EndContext();
